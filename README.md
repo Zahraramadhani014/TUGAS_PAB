@@ -92,13 +92,15 @@ Aplikasi Mini E-Commerce Shopping Cart ini memungkinkan pengguna untuk:
    
    Pada saat dijalankan, Flutter akan mengeksekusi file `main.dart` terlebih dahulu sebagai titik awal program. Di dalam file ini, aplikasi dibungkus dengan `ChangeNotifierProvider` yang berfungsi untuk menyediakan state CartModel ke seluruh bagian aplikasi.
 
+   <img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/208934d4-ab73-451f-b794-d0efd7733541" />
+
    Setelah itu, aplikasi akan menampilkan halaman utama yaitu `ProductListPage`. Dari halaman ini, user bisa mulai berinteraksi dengan aplikasi seperti menambahkan produk ke keranjang dan melihat perubahan jumlah item secara langsung.
 
-    <img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/208934d4-ab73-451f-b794-d0efd7733541" />
-
-    Berikut adalah tampilan halaman utama Aplikasi Mini E-Commerce Shopping Cart:
-
    <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/54f8ab91-d71c-4d51-b813-4989aae4e1ab" />
+
+    
+
+   
 
 
 
