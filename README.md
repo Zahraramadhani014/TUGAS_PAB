@@ -155,24 +155,5 @@ Aplikasi Mini E-Commerce Shopping Cart ini memungkinkan pengguna untuk:
    >
    ><img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/2b34d8bd-09ad-4efc-be5d-d92c96546d32" />
 
-
-
-
-
-   
-
-
-
-
-
-
-
-    
-
-   
-
-
-
-
 ## 📌 Catatan
-Project ini dibuat untuk memenuhi tugas "Shopping Cart Enhancement". Untuk file projek nya 
+Project ini dibuat untuk memenuhi tugas "Shopping Cart Enhancement". Source code project tersedia pada branch master.
