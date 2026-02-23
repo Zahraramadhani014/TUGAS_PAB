@@ -113,28 +113,29 @@ Aplikasi Mini E-Commerce Shopping Cart ini memungkinkan pengguna untuk:
      ><img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/7b8b2dc1-e59a-45eb-9976-59e030334535" />
    
    a. Jika pengguna menambah jumlah produk
-   >
-   >Jika pengguna ingin menambah jumlah produk yang sudah ada di keranjang, cukup menekan tombol tanda tambah (+) yang berada di samping angka quantity. Setelah tombol tersebut ditekan, jumlah produk akan langsung bertambah. Harga total untuk produk tersebut juga otomatis ikut berubah sesuai dengan jumlah yang dipilih. Di bagian bawah halaman, total keseluruhan belanja juga akan ikut ter-update tanpa perlu refresh atau pindah halaman. Jadi semua perubahan bisa langsung terlihat saat itu juga.
-   >
-   ><img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/69a5aa3d-d17f-400c-a441-6e99af8f05f2" />
+      >
+      >Jika pengguna ingin menambah jumlah produk yang sudah ada di keranjang, cukup menekan tombol tanda tambah (+) yang berada di samping angka quantity. Setelah tombol tersebut ditekan, jumlah produk akan langsung bertambah. Harga total untuk produk tersebut juga otomatis ikut berubah sesuai dengan jumlah yang dipilih. Di bagian bawah halaman, total keseluruhan belanja juga akan ikut ter-update tanpa perlu refresh atau pindah halaman. Jadi semua perubahan bisa langsung terlihat saat itu juga.
+      >
+      ><img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/69a5aa3d-d17f-400c-a441-6e99af8f05f2" />
    
    b. Jika pengguna mengurangi jumlah produk
-   >Jika pengguna menekan tombol minus (-), maka jumlah produk akan berkurang satu. Produk tersebut tetap ada di dalam keranjang selama jumlahnya masih lebih dari nol. Harga total untuk produk tersebut juga otomatis menyesuaikan dengan jumlah terbaru. Begitu juga dengan total keseluruhan belanja di bagian bawah halaman, nilainya akan langsung berubah mengikuti update quantity. Dengan begitu, pengguna bisa dengan mudah mengatur jumlah barang sesuai kebutuhan tanpa harus menghapus produk terlebih dahulu.
-   >
-   ><img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/7b8b2dc1-e59a-45eb-9976-59e030334535" />
+      >
+      >Jika pengguna menekan tombol minus (-), maka jumlah produk akan berkurang satu. Produk tersebut tetap ada di dalam keranjang selama jumlahnya masih lebih dari nol. Harga total untuk produk tersebut juga otomatis menyesuaikan dengan jumlah terbaru. Begitu juga dengan total keseluruhan belanja di bagian bawah halaman, nilainya akan langsung berubah mengikuti update quantity. Dengan begitu, pengguna bisa dengan mudah mengatur jumlah barang sesuai kebutuhan tanpa harus menghapus produk terlebih dahulu.
+      >
+      ><img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/7b8b2dc1-e59a-45eb-9976-59e030334535" />
 
    c. Jika pengguna ingin menghapus produk
-   >Jika pengguna ingin menghapus produk dari keranjang, cukup menekan ikon tempat sampah yang ada di sebelah kanan produk. Setelah ikon tersebut diklik, produk akan langsung hilang dari daftar keranjang. Total harga di bagian bawah juga otomatis berkurang sesuai dengan produk yang dihapus. Dengan fitur ini, pengguna bisa dengan mudah membatalkan pilihan barang tanpa perlu mengurangi quantity satu per satu.
-   >
-   ><img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/a9daabf4-34f5-455b-8e44-9ac0e2e257a6" />
+      >Jika pengguna ingin menghapus produk dari keranjang, cukup menekan ikon tempat sampah yang ada di sebelah kanan produk. Setelah ikon tersebut diklik, produk akan langsung hilang dari daftar keranjang. Total harga di bagian bawah juga otomatis berkurang sesuai dengan produk yang dihapus. Dengan fitur ini, pengguna bisa dengan mudah membatalkan pilihan barang tanpa perlu mengurangi quantity satu per satu.
+      >
+      ><img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/a9daabf4-34f5-455b-8e44-9ac0e2e257a6" />
    
-   - Jika semua produk sudah dihapus atau belum ada produk yang ditambahkan, maka halaman Cart akan menampilkan pesan bahwa keranjang masih kosong. Pada tampilan ini terdapat ikon keranjang dan tulisan “Your cart is empty” sebagai penanda bahwa belum ada barang yang dipilih. Di bawahnya juga tersedia tombol “Continue Shopping”.
-     >
-     ><img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/2127ebea-f5a2-4d72-b710-b1d62fee0346" />
+      - Jika semua produk sudah dihapus atau belum ada produk yang ditambahkan, maka halaman Cart akan menampilkan pesan bahwa keranjang masih kosong. Pada tampilan ini terdapat ikon keranjang dan tulisan “Your cart is empty” sebagai penanda bahwa belum ada barang yang dipilih. Di bawahnya juga tersedia tombol “Continue Shopping”.
+        >
+        ><img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/2127ebea-f5a2-4d72-b710-b1d62fee0346" />
    
-   - Ketika pengguna menekan tombol “Continue Shopping”, aplikasi akan langsung mengarahkan kembali ke halaman Product List sehingga pengguna bisa mulai memilih produk lagi.
-     >
-     ><img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/489c4036-066d-46a6-affe-fb1009efbbc0" />
+      - Ketika pengguna menekan tombol “Continue Shopping”, aplikasi akan langsung mengarahkan kembali ke halaman Product List sehingga pengguna bisa mulai memilih produk lagi.
+        >
+        ><img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/489c4036-066d-46a6-affe-fb1009efbbc0" />
 
 5. Setelah pengguna selesai memilih produk, langkah berikutnya adalah melakukan checkout. Untuk itu, pengguna cukup menekan tombol **Checkout** yang berada di bagian paling bawah halaman keranjang.
    >
