@@ -2,16 +2,16 @@
 
 ---
 
-<h1 align="center">🛒 Shopping Cart Enhancement "Mini E-Commerce Shopping Cart dengan Provider"
+<h1 align="center">🛒 Shopping Cart Enhancement "Mini E-Commerce Shopping Cart dengan Provider" 🛍️
 </h1> 
 
 ---
 
 ## 👩‍🎓 Identitas Mahasiswa
-Nama: Zahraturramadhani  
-NIM: 2409116014  
-Mata Kuliah: Pemrograman Aplikasi Bergerak  
-Dosen: Anton Prafanto, S.Kom., M.T.
+
+| Nama | NIM | Mata Kuliah | Dosen |
+|------|------|--------------|--------|
+| Zahraturramadhani | 2409116014 | Pemrograman Aplikasi Bergerak | Anton Prafanto, S.Kom., M.T. |
 
 ---
 
@@ -51,23 +51,35 @@ Aplikasi Mini E-Commerce Shopping Cart ini memungkinkan pengguna untuk:
 
 ---
 
-## ✅ Fitur WAJIB
-- Add to cart from product list
-- Show cart items dengan quantity
-- Update quantity (+/-)
-- Remove items from cart
-- Display total price correctly
+## Ketentuan Project
+
+✅ **Fitur WAJIB**
+   - Add to cart from product list
+   - Show cart items dengan quantity
+   - Update quantity (+/-)
+   - Remove items from cart
+   - Display total price correctly
+
+ ⭐ **Fitur BONUS**
+   - Search / Filter produk 
+   - Filter berdasarkan kategori
+   - Checkout Page (Order Summary + Form)
 
 ---
 
-## ⭐ Fitur BONUS
-- Search / Filter produk 
-- Filter berdasarkan kategori
-- Checkout Page (Order Summary + Form)
+## Struktur Program Mini E-Commerce Shopping Cart
+
+Struktur program ini mengikuti standar project Flutter. Folder seperti android, ios, web, dan lainnya merupakan bawaan Flutter untuk mendukung berbagai platform. Bagian utama aplikasi ada di dalam folder lib, karena di sanalah seluruh kode yang kita buat berada.
+
+Di dalam lib, folder models digunakan untuk menyimpan struktur data dan logika aplikasi, seperti data produk dan pengelolaan keranjang menggunakan ChangeNotifier. Sedangkan folder pages berisi tampilan setiap halaman, mulai dari daftar produk, halaman keranjang, hingga checkout. File main.dart menjadi titik awal aplikasi dijalankan sekaligus tempat penyediaan Provider agar state keranjang bisa diakses oleh semua halaman.
+
+Secara keseluruhan, struktur ini sudah terpisah dengan jelas antara logika dan tampilan sehingga kode lebih rapi dan mudah dipahami.
+
+<img width="381" height="741" alt="image" src="https://github.com/user-attachments/assets/2459c4e0-1a1e-42f9-bc4a-e056c0e282fc" />
 
 ---
 
-## 📸 Screenshot Aplikasi
+## 📸 Screenshot Aplikasi 
 
 ### Product List
 
@@ -120,7 +132,7 @@ Aplikasi Mini E-Commerce Shopping Cart ini memungkinkan pengguna untuk:
    
    b. Jika pengguna mengurangi jumlah produk
       >
-      >Jika pengguna menekan tombol minus (-), maka jumlah produk akan berkurang satu. Produk tersebut tetap ada di dalam keranjang selama jumlahnya masih lebih dari nol. Harga total untuk produk tersebut juga otomatis menyesuaikan dengan jumlah terbaru. Begitu juga dengan total keseluruhan belanja di bagian bawah halaman, nilainya akan langsung berubah mengikuti update quantity. Dengan begitu, pengguna bisa dengan mudah mengatur jumlah barang sesuai kebutuhan tanpa harus menghapus produk terlebih dahulu.
+      >Jika pengguna menekan tombol minus (-), maka jumlah produk akan berkurang satu. Produk tersebut tetap ada di dalam keranjang selama jumlahnya masih lebih dari nol, jika kurang dari nol maka produk akan otomatis terhapus dari keranjang. Harga total untuk produk tersebut juga otomatis menyesuaikan dengan jumlah terbaru. Begitu juga dengan total keseluruhan belanja di bagian bawah halaman, nilainya akan langsung berubah mengikuti update quantity. Dengan begitu, pengguna bisa dengan mudah mengatur jumlah barang sesuai kebutuhan tanpa harus menghapus produk terlebih dahulu.
       >
       ><img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/7b8b2dc1-e59a-45eb-9976-59e030334535" />
 
@@ -152,6 +164,8 @@ Aplikasi Mini E-Commerce Shopping Cart ini memungkinkan pengguna untuk:
    - Setelah pengguna menekan tombol Place Order, akan muncul notifikasi bahwa pesanan berhasil diproses. Setelah itu, pengguna akan otomatis diarahkan kembali ke halaman Product List. Pada tahap ini, keranjang sudah kembali kosong karena pesanan sebelumnya sudah selesai diproses. Notifikasi yang muncul berfungsi sebagai konfirmasi bahwa checkout berhasil dilakukan, sehingga pengguna tahu bahwa transaksi sudah berhasil tanpa perlu mengecek ulang ke halaman keranjang.
      >
      ><img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/2b34d8bd-09ad-4efc-be5d-d92c96546d32" />
+
+### ⭐ Penjelasan Fitur BONUS
 
 ## 📌 Catatan
 Project ini dibuat untuk memenuhi tugas "Shopping Cart Enhancement". Source code project tersedia pada branch master.
