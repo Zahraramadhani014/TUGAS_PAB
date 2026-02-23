@@ -95,7 +95,6 @@ Secara keseluruhan, struktur ini sudah terpisah dengan jelas antara logika dan t
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/d702fbb5-fd6d-444d-8201-386107aaf710" />
 
-
 ---
 
 ## ~ Penjelasan Alur Program  ~
@@ -149,7 +148,7 @@ Secara keseluruhan, struktur ini sudah terpisah dengan jelas antara logika dan t
         >
         ><img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/489c4036-066d-46a6-affe-fb1009efbbc0" />
 
-5. Setelah pengguna selesai memilih produk, langkah berikutnya adalah melakukan checkout. Untuk itu, pengguna cukup menekan tombol **Checkout** yang berada di bagian paling bawah halaman keranjang.
+4. Setelah pengguna selesai memilih produk, langkah berikutnya adalah melakukan checkout. Untuk itu, pengguna cukup menekan tombol **Checkout** yang berada di bagian paling bawah halaman keranjang.
    >
    ><img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/7fd30567-cdd1-4be3-b4ca-4089b025c1c4" />
    
@@ -164,8 +163,30 @@ Secara keseluruhan, struktur ini sudah terpisah dengan jelas antara logika dan t
    - Setelah pengguna menekan tombol Place Order, akan muncul notifikasi bahwa pesanan berhasil diproses. Setelah itu, pengguna akan otomatis diarahkan kembali ke halaman Product List. Pada tahap ini, keranjang sudah kembali kosong karena pesanan sebelumnya sudah selesai diproses. Notifikasi yang muncul berfungsi sebagai konfirmasi bahwa checkout berhasil dilakukan, sehingga pengguna tahu bahwa transaksi sudah berhasil tanpa perlu mengecek ulang ke halaman keranjang.
      >
      ><img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/2b34d8bd-09ad-4efc-be5d-d92c96546d32" />
+     
+---
 
 ### ⭐ Penjelasan Fitur BONUS
+
+1. Search / Filter produk
+
+   <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/fb548d21-ee15-438a-80f8-159323b66c16" />
+
+   Fitur bonus pertama adalah search dan filter produk. Di bagian atas halaman produk ada kolom pencarian. Jadi kalau pengguna mengetik kata tertentu, misalnya “smart”, maka produk yang namanya mengandung kata itu saja yang akan ditampilkan. Produk lain otomatis tersembunyi. Ini memudahkan pengguna supaya tidak perlu scroll panjang untuk mencari barang yang diinginkan.
+
+2. Filter berdasarkan kategori
+
+   <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/fbdb84ec-a8da-485b-9401-7e93bd1e9dac" />
+
+   Fitur bonus kedua adalah filter berdasarkan kategori. Selain search, pengguna juga bisa memilih kategori seperti Electronics, Gadget, atau Accessories melalui dropdown. Ketika salah satu kategori dipilih, daftar produk akan langsung menyesuaikan dan hanya menampilkan produk sesuai kategori tersebut. Kalau pilih “All”, maka semua produk akan muncul kembali seperti semula.
+
+3. Checkout Page (Order Summary + Form)
+
+   <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/661ee97a-40bc-4e15-97a6-389d52521547" />
+
+   Fitur bonus ketiga adalah Checkout Page yang berisi ringkasan pesanan dan form. Di halaman ini, pengguna bisa melihat kembali produk apa saja yang dibeli lengkap dengan jumlah dan total harganya. Di bawahnya ada form untuk mengisi nama lengkap dan alamat. Setelah data diisi dan tombol “Place Order” ditekan, pesanan diproses dan keranjang akan dikosongkan. Jadi alurnya benar-benar seperti belanja online sungguhan, dari pilih barang sampai konfirmasi pesanan.
+
+---
 
 ## 📌 Catatan
 Project ini dibuat untuk memenuhi tugas "Shopping Cart Enhancement". Source code project tersedia pada branch master.
