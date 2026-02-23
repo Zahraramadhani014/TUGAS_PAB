@@ -186,6 +186,10 @@ Secara keseluruhan, struktur ini sudah terpisah dengan jelas antara logika dan t
 
    Fitur bonus ketiga adalah Checkout Page yang berisi ringkasan pesanan dan form. Di halaman ini, pengguna bisa melihat kembali produk apa saja yang dibeli lengkap dengan jumlah dan total harganya. Di bawahnya ada form untuk mengisi nama lengkap dan alamat. Setelah data diisi dan tombol “Place Order” ditekan, pesanan diproses dan keranjang akan dikosongkan. Jadi alurnya benar-benar seperti belanja online sungguhan, dari pilih barang sampai konfirmasi pesanan.
 
+   Tetapi jika tidak mengisi form nama lengkap dan alamat, maka tampilan aplikasi nya seperti dibawah ini.
+
+   <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/65c08239-267c-4f2d-bf2a-4a88e0ef0918" />
+
 ---
 
 ## 📌 Catatan
