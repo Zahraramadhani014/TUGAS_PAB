@@ -51,7 +51,7 @@ Aplikasi Mini E-Commerce Shopping Cart ini memungkinkan pengguna untuk:
 
 ---
 
-## Ketentuan Project
+## ✏️ Ketentuan Project
 
 ✅ **Fitur WAJIB**
    - Add to cart from product list
@@ -67,7 +67,7 @@ Aplikasi Mini E-Commerce Shopping Cart ini memungkinkan pengguna untuk:
 
 ---
 
-## Struktur Program Mini E-Commerce Shopping Cart
+## ⚙️ Struktur Program Mini E-Commerce Shopping Cart
 
 Struktur program ini mengikuti standar project Flutter. Folder seperti android, ios, web, dan lainnya merupakan bawaan Flutter untuk mendukung berbagai platform. Bagian utama aplikasi ada di dalam folder lib, karena di sanalah seluruh kode yang kita buat berada.
 
@@ -159,6 +159,9 @@ Secara keseluruhan, struktur ini sudah terpisah dengan jelas antara logika dan t
    - Di bawah ringkasan tersebut terdapat form yang harus diisi, yaitu Full Name dan Address. Pengguna perlu mengisi data tersebut terlebih dahulu sebelum melanjutkan proses pemesanan. Setelah semua data terisi, pengguna dapat menekan tombol **Place Order**. Jika form sudah terisi dengan benar, maka pesanan akan diproses dan keranjang akan kembali kosong.
      >
      ><img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/bf0b2481-2db2-4849-99a1-13716b145738" />
+     >
+     >Tetapi jika tidak mengisi form nama lengkap dan alamat, maka tampilan aplikasi nya seperti dibawah ini.
+     ><img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/65c08239-267c-4f2d-bf2a-4a88e0ef0918" />
    
    - Setelah pengguna menekan tombol Place Order, akan muncul notifikasi bahwa pesanan berhasil diproses. Setelah itu, pengguna akan otomatis diarahkan kembali ke halaman Product List. Pada tahap ini, keranjang sudah kembali kosong karena pesanan sebelumnya sudah selesai diproses. Notifikasi yang muncul berfungsi sebagai konfirmasi bahwa checkout berhasil dilakukan, sehingga pengguna tahu bahwa transaksi sudah berhasil tanpa perlu mengecek ulang ke halaman keranjang.
      >
@@ -185,10 +188,6 @@ Secara keseluruhan, struktur ini sudah terpisah dengan jelas antara logika dan t
    <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/661ee97a-40bc-4e15-97a6-389d52521547" />
 
    Fitur bonus ketiga adalah Checkout Page yang berisi ringkasan pesanan dan form. Di halaman ini, pengguna bisa melihat kembali produk apa saja yang dibeli lengkap dengan jumlah dan total harganya. Di bawahnya ada form untuk mengisi nama lengkap dan alamat. Setelah data diisi dan tombol “Place Order” ditekan, pesanan diproses dan keranjang akan dikosongkan. Jadi alurnya benar-benar seperti belanja online sungguhan, dari pilih barang sampai konfirmasi pesanan.
-
-   Tetapi jika tidak mengisi form nama lengkap dan alamat, maka tampilan aplikasi nya seperti dibawah ini.
-
-   <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/65c08239-267c-4f2d-bf2a-4a88e0ef0918" />
 
 ---
 
