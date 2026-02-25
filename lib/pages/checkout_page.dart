@@ -62,7 +62,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
                       child: ListView.separated(
                         padding: const EdgeInsets.all(12),
                         itemCount: cart.itemsList.length,
-                        separatorBuilder: (_, __) =>
+                        separatorBuilder: (_, _) =>
                             const Divider(),
                         itemBuilder: (context, index) {
                           final item = cart.itemsList[index];
@@ -93,7 +93,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
 
                   const SizedBox(height: 16),
 
-                  // ===== TOTAL =====
+                  // TOTAL
                   Row(
                     mainAxisAlignment:
                         MainAxisAlignment.spaceBetween,
@@ -118,7 +118,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
 
                   const SizedBox(height: 20),
 
-                  // ===== FORM =====
+                  // FORM
                   Form(
                     key: _formKey,
                     child: Column(
@@ -163,7 +163,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
 
                   const SizedBox(height: 20),
 
-                  // ===== PLACE ORDER BUTTON =====
+                  // PLACE ORDER BUTTON
                   SizedBox(
                     width: double.infinity,
                     child: ElevatedButton(

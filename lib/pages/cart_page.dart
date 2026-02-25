@@ -255,7 +255,7 @@ class CartPage extends StatelessWidget {
                 ),
               ),
 
-              // ===== TOTAL BAR =====
+              // TOTAL BAR
               Container(
                 padding:
                     const EdgeInsets.all(20),
@@ -299,7 +299,7 @@ class CartPage extends StatelessWidget {
                         ],
                       ),
 
-                      // 🔥 FIXED CHECKOUT BUTTON
+                      // CHECKOUT BUTTON
                       ElevatedButton(
                         onPressed: () {
                           Navigator.push(
